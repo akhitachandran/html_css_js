@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    font-family: 'Times New Roman';
+    font-weight:bold;
+}
+.main{
+    max-width:400px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 'i1 i2 i3''i4 i5 i6''i7 i8 i9';
+}
+.out{ 
+    height:100px;
+    background-color: #EEF7FF;
+    padding:10px;
+    border:1px solid #313131;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.in{
+    padding:10px;
+    margin: 10px;
+    background-color:  #ACE2E1;
+    border: 5px solid  #ACE2E1;
+    border-radius: 50%;
+    height:35px;
+    width:35px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+/* Create a Circle Using Border Radius
+Create a 3x3 Grid Layout
+ */
