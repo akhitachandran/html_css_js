@@ -13,7 +13,7 @@ body,html{
 }
 .content{
     padding:20px;
-    background-color: rgba(245, 245, 220,0.9);
+    background-color: #f5f5dce6;
     text-align: center;
     max-width: 400;
     border-radius: 15px;
